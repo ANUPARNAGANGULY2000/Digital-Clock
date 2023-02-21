@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+   /* overflow: hidden;*/
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+.Digital{
+    text-transform: uppercase ;
+    letter-spacing: 6px;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(254, 255, 252);
+    z-index: 50;
+    font-weight: bold;
+    
+}
+.Clock{
+    display:flex;
+}
+.Clock div{
+    margin: 6px;
+    position: relative;
+}
+.Clock span{
+    width:182px;
+    height: 76px;
+    background: rgb(207, 239, 46);
+   /* opacity: .5;*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 45px;
+   text-shadow: 2px 2px 4px;
+}
+.Clock .time{
+
+    height: 35px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: rgb(21, 20, 20);
+    color: beige;
+  
+}
+.Clock #ampm{
+  
+    bottom: 0;
+    position:absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: whitesmoke;
+
+}

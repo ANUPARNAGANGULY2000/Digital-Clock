@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Digital Clock</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <video autoplay muted loop id="myVideo">
+            <source src="./video/starbrush.mp4" type="video/mp4">
+          </video>
+          <h1 class="Digital"><b>Digital Clock</b></h1>
+        <div class="Clock">
+            <div>
+                <span id="hours">00</span>
+                <span class="time">Hours</span>
+            </div>
+            <div>
+                <span id="minute">00</span>
+                <span class="time">Minute</span>
+            </div>
+            <div>
+                <span id="second">00</span>
+                <span class="time">Second</span>
+            </div>
+            <div>
+                <span id="ampm">AM</span>
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
